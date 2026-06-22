@@ -67,7 +67,7 @@ def envoyer_email(note):
             "Content-Type": "application/json"
         },
         json={
-            "from": "Veille Assurance <onboarding@resend.dev>",
+            "from": "Veille Assurance <contact@faradaylab.fr>",
             "to": [EMAIL_DESTINATAIRE],
             "subject": f"Note de veille concurrentielle — {date_str}",
             "text": note
